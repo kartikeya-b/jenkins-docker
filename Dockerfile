@@ -80,11 +80,11 @@ RUN install-plugin.sh docker-workflow 1.9.1
 RUN install-plugin.sh pipeline-build-step 2.4
 RUN install-plugin.sh scm-api 2.1.1
 RUN install-plugin.sh pipeline-stage-step 2.2
-RUN install-plugin.sh build-pipeline-plugin 1.619 
-RUN install-plugin.sh maven-plugin 1.625.3 
-RUN install-plugin.sh nexus-artifact-uploader 1.651.3 
-RUN install-plugin.sh nexus-jenkins-plugin 2.7
-RUN install-plugin.sh sonar 2.32.2 
+RUN install-plugin.sh build-pipeline-plugin 1.5.6 
+RUN install-plugin.sh maven-plugin 2.15.1 
+RUN install-plugin.sh nexus-artifact-uploader 2.9 
+RUN install-plugin.sh nexus-jenkins-plugin 1.2.20170428-142845.cb63c9e
+RUN install-plugin.sh sonar 2.6.1 
 
 EXPOSE 8080
 
